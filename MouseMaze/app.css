@@ -1,0 +1,67 @@
+h1, h2, h3{
+	text-align: center;
+}
+h2{
+	height:27px;
+}
+.rect{
+	position:absolute;
+	cursor:crosshair;
+	background-color: #fff;
+}
+.rect1, .rect3, .rect5{
+	height:40px;
+	width: 260px;
+}
+.rect2, .rect4{
+	height:220px;
+	width:40px;
+}
+.rect1{
+	left:0;
+	bottom:40px;
+}
+.rect2{
+	left:220px;
+	bottom:80px;
+}
+.rect3{
+	left:260px;
+	bottom:260px;
+}
+.rect4{
+	left:520px;
+	bottom:80px;
+}
+.rect5{
+	right:0;
+	bottom:40px;
+}
+.route{
+	margin:0 auto;
+	height:340px;
+	width:780px;
+	position:relative;
+	background-color: rgb(238,238,238);
+}
+.start,.end{
+	width:34px;
+	height:34px;
+	margin:3px;
+	text-align: center;
+	font-size: 26px;
+	font-family: tahoma,arial,sans-serif;
+	color:#fff;
+	line-height: 36px;
+	z-index: 2;
+	top:0;
+	position:absolute;
+}
+.start{
+	background-color: green;
+	left:0;
+}
+.end{
+	background-color: blue;
+	right:0;
+}

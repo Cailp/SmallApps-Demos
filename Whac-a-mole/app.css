@@ -1,0 +1,61 @@
+h1,h3{
+	text-align: center;
+}
+
+.container{
+	margin:0 auto;
+	width:768px;
+	text-align: center;
+}
+.state, .time, .score, button{
+	width: 200px;
+	line-height:29px;
+	font-family: "Arial";
+}
+
+.screen{
+	margin:0 auto;
+	overflow:hidden;
+	display: inline-block;
+}
+
+.button, .output{
+	float:left;
+}
+
+.output{
+	margin-left: 30px;
+}
+
+.time, .score{
+	text-align: right;
+}
+
+.time>span, .score>span{
+	border:1px solid;
+	width:40px;
+	height:27px;
+	text-align: left;
+	display: inline-block;
+	padding-left: 3px;
+}
+
+.gameBox{
+	border: 1px solid;
+	width:680px;
+	height:408px;
+	overflow:hidden;
+	margin:0 auto;
+	padding:20px;
+}
+
+.hole{
+	float:left;
+	width:46px;
+	height:46px;
+	border-radius: 48px;
+	margin:10px;
+	padding:0;
+	border:1px solid #656565;
+	cursor: pointer;
+}
