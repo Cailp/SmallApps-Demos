@@ -1,0 +1,54 @@
+.container{
+    margin-top: 200px;
+}
+.puzzle{
+    margin:0;
+    padding:0;
+    border:1px solid #dbdbdb;
+    width:88px;
+    height:88px;
+    position:absolute;
+    cursor:pointer;
+    background-image: url("panda.jpg");
+}
+.puzzle:hover{
+    border:2px solid #dbdbdb;
+}
+.blank{
+    margin:0;
+    padding:0;
+    border:0;
+    width:90px;
+    height:90px;
+    position:absolute;
+    cursor:default;
+}
+.gameBox{
+    width:360px;
+    height:360px;
+    position:relative;
+    margin:0 auto;
+}
+.btn{
+    color:#fff;
+    cursor: pointer;
+    text-align: center;
+    margin:50px auto;
+    width:150px;
+    font: 24px "Microsoft YaHei UI";
+    border:2px solid #dbdbdb;
+    background-color: #00A1FF;
+    box-shadow:8px 6px #dbdbdb;
+    line-height:48px;
+    transition-property: width line-height box-shadow;
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
+}
+.btn:hover{
+    width: 160px;
+    line-height: 56px;
+    box-shadow:4px 3px #dbdbdb;
+    transition-property: width line-height;
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
+}
